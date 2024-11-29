@@ -1,0 +1,12 @@
+@use 'base/reset';
+
+@use 'components/header';
+@use 'components/main-content';
+@use 'components/footer';
+@use 'components/columns';
+@use 'components/conteiner';
+
+@use 'layouts/button';
+@use 'layouts/steps';
+
+@use 'utils/media';

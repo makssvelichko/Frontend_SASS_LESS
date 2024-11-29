@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  line-height: 1.6;
+}
+.text h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.text {
+  font-size: 16px;
+  padding: 15px;
+  text-align: left;
+}
+header {
+  text-align: center;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+main {
+  text-align: center;
+  padding: 20px;
+}
+.articles-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+.article {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.subscribe-section {
+  margin: 20px 0;
+}
+.subscribe-section input[type="email"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  width: 400px;
+  margin-right: 10px;
+}
+.subscribe-section button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.footer {
+  margin-top: 40px;
+  height: 120px;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+.footer .links ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer .links ul li {
+  margin-bottom: 5px;
+}
+.footer .links ul a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.logo .imglogo img {
+  max-width: 160px;
+  height: auto;
+  display: flex;
+  text-align: left;
+}
+.logo .imglogo p {
+  font-size: 19px;
+  text-align: left;
+  padding: 10px;
+}
+.image.small img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+@media (max-width: 780px) {
+  .articles-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .article {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .logo img {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 10px;
+  }
+  .imglogo img {
+    max-width: 120px;
+  }
+  .subscribe-section button {
+    margin-top: 20px;
+  }
+  .footer {
+    height: 400px;
+  }
+  .footer .links {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .footer ul {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1921px) {
+  .articles-section {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .article {
+    max-width: 600px;
+  }
+  .logo img {
+    width: 250px;
+    height: 250px;
+  }
+  .imglogo img {
+    max-width: 200px;
+  }
+  .text h2 {
+    font-size: 24px;
+  }
+  .text {
+    font-size: 18px;
+  }
+  .subscribe-section input[type="email"] {
+    width: 500px;
+  }
+}

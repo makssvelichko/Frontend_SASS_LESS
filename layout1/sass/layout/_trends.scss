@@ -1,0 +1,50 @@
+.trends {
+    grid-area: trends;
+    padding: 20px;
+    border: 2px solid #ccc;
+    margin-right: 10px;
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+  
+    ul {
+      list-style: none;
+      padding: 0;
+  
+      li {
+        padding: 10px 0;
+        cursor: pointer;
+      }
+    }
+  }
+  
+  @media (max-width: 780px) {
+    .trends {
+      margin: 10px;
+      margin-left: 5px;
+      position: relative;
+      height: auto;
+  
+      ul {
+        padding: 0;
+      }
+  
+      li {
+        padding: 5px 0;
+        font-size: 14px;
+      }
+    }
+  }
+  
+  @media (min-width: 1921px) {
+    .trends {
+      padding: 30px;
+      border: 3px solid #ccc;
+  
+      li {
+        font-size: 18px;
+      }
+    }
+  }
+  

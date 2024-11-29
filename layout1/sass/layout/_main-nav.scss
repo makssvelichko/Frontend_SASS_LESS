@@ -1,0 +1,24 @@
+.main-nav {
+    grid-area: main-nav;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .sections-header {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+  }
+  
+  .sections-header div {
+    margin: 0;
+    padding: 10px;
+    min-width: 100px;
+    text-align: center;
+  }
+  
+  .main-nav a {
+    text-decoration: none;
+    color: black;
+  }

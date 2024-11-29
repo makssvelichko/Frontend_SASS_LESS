@@ -1,0 +1,16 @@
+.image-placeholder {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: 450px;
+    overflow: hidden;
+    box-shadow: 5px 0px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid #9e9e9e;
+  }
+  

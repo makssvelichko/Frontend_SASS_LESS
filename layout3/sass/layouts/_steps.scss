@@ -1,0 +1,36 @@
+.steps {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 140px;
+  
+    .step-box {
+      width: 300px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  
+      .step-content {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+  
+        .step-number {
+          font-size: 48px;
+          font-weight: bold;
+          width: 60px;
+        }
+  
+        .step-text {
+          text-align: left;
+  
+          h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+  
